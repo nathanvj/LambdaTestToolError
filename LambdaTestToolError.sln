@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaTestToolError.API", "LambdaTestToolError.API\LambdaTestToolError.API.csproj", "{EA3A3ABE-8F39-4D20-805E-CDB2F5406263}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaTestToolError.Lambda", "LambdaTestToolError.Lambda\LambdaTestToolError.Lambda.csproj", "{8BE4B5EB-969E-4F1D-BA0F-582F7022CADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA3A3ABE-8F39-4D20-805E-CDB2F5406263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3A3ABE-8F39-4D20-805E-CDB2F5406263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3A3ABE-8F39-4D20-805E-CDB2F5406263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3A3ABE-8F39-4D20-805E-CDB2F5406263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE4B5EB-969E-4F1D-BA0F-582F7022CADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE4B5EB-969E-4F1D-BA0F-582F7022CADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE4B5EB-969E-4F1D-BA0F-582F7022CADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE4B5EB-969E-4F1D-BA0F-582F7022CADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E4FD20D-15E5-4E42-A2BC-13087E2D9115}
+	EndGlobalSection
+EndGlobal

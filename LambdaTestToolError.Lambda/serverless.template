@@ -1,0 +1,22 @@
+{
+  "AWSTemplateFormatVersion" : "2010-09-09",
+  "Transform" : "AWS::Serverless-2016-10-31",
+  "Description" : "Starting template for an AWS Serverless Application.",
+  "Parameters" : {
+  },
+  "Resources" : {
+      "MyLambdaFunction" : {
+      "Type" : "AWS::Serverless::Function",
+      "Properties": {
+        "Handler": "LambdaTestToolError.Lambda::LambdaTestToolError.Lambda.MyLambdaFunction::FunctionHandler",
+        "Runtime": "dotnet6",
+        "CodeUri": "",
+        "Description": "My Lambda Function",
+        "MemorySize": 256,
+        "Timeout": 30,
+        "Role": null,
+        "Policies": [ "AWSLambda_FullAccess" ]
+      }
+    }
+  }
+}
